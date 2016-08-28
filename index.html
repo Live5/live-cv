@@ -1,91 +1,126 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<title>董立武的个人简历</title>
+<link rel="stylesheet" href="css/jquery.fullPage.css" />
+<link rel="stylesheet" href="css/style.css" />
+<!-- <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?f05ff7bdbbda9eab9514c0a32ae62b65";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script> -->
+</head>
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>Live-cv by Live5</title>
-  </head>
-
-  <body>
-    <a id="forkme_banner" href="https://github.com/Live5/live-cv">View on GitHub</a>
-    <div class="shell">
-
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Live-cv</h1>
-            <h2></h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
-
-      <section id="downloads">
-        <span class="inner">
-          <a href="https://github.com/Live5/live-cv/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/Live5/live-cv/tarball/master" class="tgz"><em>download</em> .TGZ</a>
-        </span>
-      </section>
-
-
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-      </section>
-
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>this project by <a href="https://github.com/Live5">Live5</a> can be found on <a href="https://github.com/Live5/live-cv">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
-
+<body>
+<ul id="myMenu">
+    <li id="p1" data-menuanchor="page1" class="cur"><a href="#page1">自我介绍</a></li>
+    <li id="p2" data-menuanchor="page2"><a href="#page2">技能展示</a></li>
+    <li id="p3" data-menuanchor="page3"><a href="#page3">实践经历</a></li>
+    <li id="p4" data-menuanchor="page4"><a href="#page4">请联系我</a></li>
+</ul>
+<div class="down"><img src="background/down.png"/></div>
+<div id="fullpage"> 
+    <div class="section active">
+    	  <div id="bg-1"class="bg"></div>
+    	  <div class="head">
+              <span></span> 
+              <span id="head-2"></span>
+          </div>
+          <div class="text">
+              <p class="text-1">Hello，我是<font color="#00a0e9">董立武</font> 男/25岁</p>
+              <p class="text-2">教育经历：本科/山东财经大学燕山学院/专业是审计</p>
+              <p class="text-3">英语水平：CET-6</p>
+              <p class="text-4">个人博客:  &nbsp;<a  href="https://live5.github.io/" target="_blank"> Live's blog</a></p>
+              <p class="text-5">宜信就职，从事数据PM的工作,希望获得<font color="#00a0e9">数据PM</font>的相关职位。</p>
+          </div>
     </div>
+    <div class="section">
+        <div id="bg-2" class="bg"></div>
+        <div class="list">
+            <div id="p-1">
+              	<h1>HTML/CSS</h1>
+              	<a  href="https://live5.github.io/The-2nd-summary/" target="_blank">作品展示</a>
+	            <div>
+		            <p>自学Web前端设计,熟悉HTML、CSS，能够使用jquery设计各类网页和可视化图表。</p>
+              	</div>
+            </div>
+            <div id="p-2">
+              	<h1>SQL</h1>
+              	<a href="http://live5.github.io/tags/SQL/" target="_blank">作品展示</a>
+              	<div>
+	              	<p>熟悉SQL，在工作中比较常用到，这个是在工作中对数据库字段的总结，并且将bug提交了技术部。
+                 </p>
+	            </div>
+            </div>
+            <div id="p-3">
+              	<h1>R/SAS</h1>
+	            <a href=#>作品展示</a>
+	            <div>
+		            <p>熟悉R语言和SAS，可以用R建模、图表的绘制和数据的预处理，了解数据挖掘和文本挖掘。
+                </p>
+	            </div>
+            </div>
+            <div id="p-4">
+              	<h1>Axure/Sketch/Invision</h1>
+	            <a href="https://live5.github.io/2016/08/23/prototype/" target="_blank">作品展示</a>
+	            <div>
+		            <p>熟悉Axure/Sketch的使用，可以用Axure绘制原型，用Sketch作图，并且会用framer.js做交互原型。</p>
+		        </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+    	<div id="bg-3" class="bg"></div>
+    	<div class="square">
+			<div id="sq1">
+				<h2>经历1</h2>
+				<p>分析、设计宜信3.0信审系统，编写3.0系统测试用例并且召集测试人员完成系统测试，最终完成上线。</p>
+			</div>
+			<div id="sq2">
+                        <h2>经历2</h2>
+                        <p>参与BI数据治理项目，完成宜人贷、城市信贷宽表的数据测试工作。 </p>
+			</div>
+			<div id="sq3">
+				<h2>经历3</h2>
+				<p>参与并完成宜人贷Vintage账龄报表分析，从中得出迁移率和违约数据表现趋势。</p>
+			</div>
+			<div id="sq4">
+				<h2>经历4</h2>
+				<p>完成、建立信审系统自动拒贷可视化报表，并且跟踪分析FICO拒贷和执行信息自动拒贷的数据不合理性。</p>
+			</div>
+			<div id="sq5">
+				<h2>经历5</h2>
+				<p>参与并且完成线下门店拒贷码的建立和匹配工作。
+</p>
+			</div>
+			<div id="sq6">
+				<h2>经历6</h2>
+				<p>参与并且完成部分反欺诈用户画像的建立工作。
+                        </p>
+			</div>
+		</div>
+    </div>
+    <div class="section">
+    	<div id="bg-4" class="bg"></div>
+    	<p class="cm">Contact Me!</p>
+    	<div class="contact">
+	    	<div><img src="contact/phone.png" alt="phone"/><h1>手机</h1><p>13075372359</p></div>
+	    	<div><img src="contact/qq.png" alt="contact"/><h1>QQ</h1><p>185230726</p></div>
+			<div><img src="contact/wechat.png" alt="wechat"/><h1>微信</h1><p>dongliwu555</p></div>
+	    	<div><img src="contact/mail.png" alt="mail"/><h1>邮箱</h1><p>185230726@qq.com</p></div>
+    	</div>
+    </div>
+</div>
 
-    
-  </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+<script src="js/move.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.6/jquery.fullPage.js"></script>
+<script src="js/animation.js"></script>
+</body>
 </html>
